@@ -25,7 +25,7 @@ the LCD shield fits directly ontop of the Arduino
 |- | A5 |
 
 ## Downloads
-* [Source code](../downloads/Duinotech_Metronome.zip)
+* [Source code](https://github.com/duinotech/Metronome/archive/master.zip)
 
 ## Software Libraries
 |Library | Author
