@@ -7,7 +7,7 @@ tools can be useful in other fields- in this case for musicians. The Duinotech M
 between 20 and 240bpm, and can be set to accent anywhere between every beat and every eighth beat. It also
 gives a display of the classical name for that tempo.
 
-![](../images/NPI00004a.png)
+![](images/NPI00004a.png)
 
 ## Bill of Materials
 | Qty | Code | Description |
