@@ -24,6 +24,15 @@ the LCD shield fits directly ontop of the Arduino
 |S | A3 |
 |- | A5 |
 
+<<<<<<< HEAD
+=======
+## Downloads
+* [Source code](https://github.com/duinotech/Metronome/archive/master.zip)
+
+## Software Libraries
+|Library | Author
+| --- |--- |
+>>>>>>> 6d3cf7ff4306246398cfe968018d2ac15e241c61
 
 ## Assembly
 solder the buzzer onto `A3`,`A4`,`A5` of the LCD shield.
