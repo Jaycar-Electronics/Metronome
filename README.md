@@ -24,12 +24,6 @@ the LCD shield fits directly ontop of the Arduino
 |S | A3 |
 |- | A5 |
 
-## Downloads
-* [Source code](../downloads/Duinotech_Metronome.zip)
-
-## Software Libraries
-|Library | Author
-| --- |--- |
 
 ## Assembly
 solder the buzzer onto `A3`,`A4`,`A5` of the LCD shield.
@@ -60,16 +54,8 @@ Operation of the Metronome is simple. The buttons have the following functions:
 |Reset| On reset, the EEPROM settings are loaded, so this can be used to restore settings.
 
 ## Future Improvements
-Being able to customize a project is what we like about Arduino, and this one is no different. If you don't like the
-names and tempi that are displayed, they can be changed in the tempos[] and temponames[] arrays. The notes
-that are played as tones can also be changed in the accnote[] array.
+Being able to customize a project is what we like about Arduino, and this one is no different. If you don't like the names and tempi that are displayed, they can be changed in the `tempos[]` and `temponames[]` arrays. The notes that are played as tones can also be changed in the `accnote[]` array.
 
-As we mentioned earlier, the use of precision timers is essential to this sketch. The slowest the Metronome can
-go without overflowing its counter is actually 15bpm, and it can go much faster than 240bpm if necessary,
-although the tones might merge into one another if it goes much faster. We've tested this sketch on the Leonardo
-too, and it can substitute if you don't have an Uno.
+As we mentioned earlier, the use of precision timers is essential to this sketch. The slowest the Metronome can go without overflowing its counter is actually 15bpm, and it can go much faster than 240bpm if necessary, although the tones might merge into one another if it goes much faster. We've tested this sketch on the Leonardo too, and it can substitute if you don't have an Uno.
 
-Another feature that could be handy is reprogramming one of the buttons to turn the Metronome on and off if
-necessary. We thought a handy feature would be 'follow-the-beat', which is why we put the Buzzer Module on the
-analog pins. The plan was to read the Buzzer (they also respond to sound like a microphone), detect the beat
-and display it, but we couldn't quite get it working.
+Another feature that could be handy is reprogramming one of the buttons to turn the Metronome on and off if necessary. We thought a handy feature would be 'follow-the-beat', which is why we put the Buzzer Module on the analog pins. The plan was to read the buzzer (they also respond to sound like a microphone), detect the beat and display it, but we couldn't quite get it working.
